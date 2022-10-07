@@ -48,16 +48,16 @@ grid_4.addEventListener("mouseout", () => {
 // }
 
 
-    const even_grid_items = document.getElementsByClassName("song");
+    // const even_grid_items = document.getElementsByClassName("song");
 
-    for(let i=0; i<even_grid_items.length; i++) {
-        even_grid_items[i].addEventListener("mouseover", () => {    
-            even_grid_items[i].classList.add("song_zoomed");
-        })
-        even_grid_items[i].addEventListener("mouseout", () => {
-            even_grid_items[i].classList.remove("song_zoomed");
-        })
-    }
+    // for(let i=0; i<even_grid_items.length; i++) {
+    //     even_grid_items[i].addEventListener("mouseover", () => {    
+    //         even_grid_items[i].classList.add("song_zoomed");
+    //     })
+    //     even_grid_items[i].addEventListener("mouseout", () => {
+    //         even_grid_items[i].classList.remove("song_zoomed");
+    //     })
+    // }
 
 
 
